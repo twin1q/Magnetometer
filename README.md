@@ -1,11 +1,11 @@
 SJSU IEEE Compass Project 2015
 ==============================
 ![](\sjsu_horiz.jpg)
+
 ![](\IEEE_logo.jpg)
 
 
-![](\Digital_compass.jpg)
-![](\Digital_compass_led.jpg)
+![](\Digital_compass.jpg) ![](\Digital_compass_led.jpg)
 
 Uses the HMC5883L digital compass for the Arduino
 
