@@ -34,6 +34,7 @@ Assembly
 ------------------------------------------------------
 Using a protoboard, solder the HMC5883L and LED's as shown in the following image.
 ![](\Layout.JPG)
+
 After the Layout is complete, solder the components to their respective connections
 shown in the next image. 
 ![](\Sch.JPG)
