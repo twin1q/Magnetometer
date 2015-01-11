@@ -32,8 +32,8 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE._
 
 Assembly
 ------------------------------------------------------
-Using a protoboard. Solder the HMC5883L and LED's as shown in the following image.
+Using a protoboard, solder the HMC5883L and LED's as shown in the following image.
 ![](\Layout.JPG)
-After the Layout is complete. Solder the components to their respective connections
-shown in the next figure. 
+After the Layout is complete, solder the components to their respective connections
+shown in the next image. 
 ![](\Sch.JPG)
