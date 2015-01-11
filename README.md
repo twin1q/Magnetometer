@@ -5,7 +5,7 @@ SJSU IEEE Compass Project 2015
 ![](\IEEE_logo.jpg)
 
 
-![](\Digital_compass.JPG) ![](\Digital_compass_led.jpg)
+![](\Digital_compass.jpg) ![](\Digital_compass_led.jpg)
 
 Uses the HMC5883L digital compass for the Arduino
 
@@ -33,8 +33,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE._
 Assembly
 ------------------------------------------------------
 Using a protoboard, solder the HMC5883L and LED's as shown in the following image.
+
 ![](\Layout.JPG)
 
 After the Layout is complete, solder the components to their respective connections
-shown in the next image. 
+shown in the next image.
+ 
 ![](\Sch.JPG)
