@@ -47,7 +47,7 @@ MagnetometerDirection Magnetometer::Read()
         if(ackStatus != 0)
             return MagnetometerDirection();             // Return empty structure
 
-        bytes_read = Wire.requestFrom(MAGNETOMETER_ADDRESS, 1); // Read status register
+        bytes_read = Wire.requestFrom(MAGNETOMETER_ADDRESS, (unsigned char)1); // Read status register
         if(bytes_read >= 1)
             status = Wire.read();
         else
@@ -64,7 +64,7 @@ MagnetometerDirection Magnetometer::Read()
         return MagnetometerDirection();                 // Return empty structure
 
     // Read data from each axis
-    bytes_read = Wire.requestFrom(MAGNETOMETER_ADDRESS, 6);
+    bytes_read = Wire.requestFrom(MAGNETOMETER_ADDRESS, (unsigned char) 6);
     if(bytes_read >= 6)
     {   // Data is in two's compliment
         x = Wire.read()<<8;                             // x most significant byte

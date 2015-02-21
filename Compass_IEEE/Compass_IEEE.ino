@@ -56,9 +56,9 @@ void setup()
     Wire.begin();                               // Initialize the I2C port 
     
     // Initialize the led
-    for(int i = 2; i <= 9; i++)
+    for(int i = 0; i <= 6; i++)
     {
-        pinMode(i,OUTPUT);
+        pinMode(LedSequence[i],OUTPUT);
     }
     
     bool ledState;
